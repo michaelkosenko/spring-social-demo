@@ -1,0 +1,11 @@
+spring:
+  social:
+    facebook:
+      app-id: ${facebookAppId}
+      app-secret: ${facebookAppSecret}
+      
+      
+      
+logging:
+  level: 
+    com.nixsolutions: DEBUG

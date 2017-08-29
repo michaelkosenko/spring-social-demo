@@ -16,7 +16,7 @@
             <input type="password" id="password" name="password" /> <br />
             <input type="submit" value="Log in" />
         </form>
-        <p><a th:href="@{/auth/facebook}"><img th:src="@{/social/facebook/login-facebook.png}" border="0"/></a></p>
+        <p><a th:href="@{/auth/facebook?scope=email}"><img th:src="@{/social/facebook/login-facebook.png}" border="0"/></a></p>
         <p><a href="/index" th:href="@{/index}">Back to home page</a></p>
     </body>
 </html>
